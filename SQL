@@ -1,0 +1,62 @@
+Select * from (select DISTINCT Salary from emoloyee ORDER BY Salary DESC) where RomNum<4 ;
+
+Range of values
+Select * from students where roll_no BETWEEN 10 AND 50;
+
+Set of values
+Select * from students where roll_no IN ( 8,15,20);
+
+fetching alternate records from table
+To display even numbers
+Select studentId from (Select rowno, studentId from student) where mod(rowno,2)=0;
+To display odd numbers
+Select studentId from (Select rowno, studentId from student) where mod(rowno,2)=1;
+
+
+
+
+Joins
+Subquery
+Index
+Alias
+Nested Select 
+OrderBy 
+GroupBy   ***
+Where/Having
+
+Practice some queries
+
+
+Write a query to fetch the departmentWise count of employees sorted by department's count in asending order?
+Ascending order by default
+select DEPT ,Count(*) from Employee GROUP BY DEPT;
+Descending order
+select DEPT ,Count(*) from Employee GROUP BY DEPT ORDER BY Count(*);
+
+Write query to retrieve the department who is having less than 4 employees?
+Select DEPT, Count(*) from emoloyee GroupBy DEPT Having Count(*)<4;
+
+Write a query to retrieve departmentWise maximum salary.
+Select DEPT,MAX(Salary) from Employee GroupBy DEPY; 
+
+https://www.youtube.com/watch?v=sa6_kqlglLs
+
+
+Duplicates 
+
+Empid        empname        salary       dob
+1              shu
+2 
+3
+4
+5  
+6              shu
+SELECT name, MAX(salary) AS salary 
+FROM employee 
+WHERE salary < (SELECT MAX(salary) 
+FROM employee)
+
+select salary from (Select DISTINCT salary from emoloyee OrderBy DESC) RowNum<4
+
+Delete from emoloyee where Empid IN(
+select emp2.empid from Employee As emp1 JOIN Employee As emp2 ON emp1.empname=emp2.empname And emp1.empId<emp2.empId);

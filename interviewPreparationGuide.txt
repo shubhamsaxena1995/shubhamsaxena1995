@@ -1,0 +1,167 @@
+
+
+Please go through the below links and questions before attending any technical interviews:
+
+1. Clear your basic understanding in Java from : http://durgasoft.com/free-corejava-with-scjp-ocjp-durga-videos.asp
+2. Practice Problem solving and data structure related problem from: https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+3. Practice most asked problem solving interview questions from: https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/
+
+
+Multithreading:
+1. volatile keyword and AtomicInteger
+2. Print even odd number using 2 threads
+3. Producer consumer problem.(with 2 running threads: 1 thread is producing and 1 thread is consuming)
+3. Producer consumer problem.(with more than 2 running threads: multiple threads are producing and multiple threads are consuming) 
+4. Thread safe singleton class( explain double null check properly)
+5. 
+
+Collection:
+1. Write your own custom HashMap
+2.  Write your own custom ConcurrentHashMap 
+3.  Write your own custom LinkedHashMap
+4.  Write your own custom TreeMap 
+5. Internal working of HashMap
+6.  Write your own custom BlockingQueue
+7. Internal working of HashMap.
+8.  Internal working of LinkedHashMap. 
+9.  Internal working of  CopyOnWriteArrayList.
+
+OOP & Java:
+1. Automatic type promotion in method overloading.
+2. Covariant return type in method overriding.
+3. Exception in case of overridden methods.
+4. Access modifies scopes in case of overridden methods.
+5. return statement in try , catch and finally
+
+
+Must Do:
+1. LRU cache design
+2. write immutable class with mutable reference( e.g Date , ArrayList)
+3. Contract b/w hashcode and equals method
+4.  Write your custom thread safe logger class.
+5. CyclicBarrier
+6. CountdownLatch
+7. Sort a HashMap with respect to values. In case values are same then sort those only with respect to Keys.
+8. Explain garbage collection.
+
+
+Design Patterns:
+1. Singleton
+2. Prototype
+3. Factory & Abstract Factory
+4. Builder
+5. Decorator
+6. Observer
+7. Template
+8. Strategy
+
+
+============================================================================================
+Mentioned below are few extra things which can help you also:
+============================================================================================
+Core Java
+1) HashMap implementation
+2) we have Student Object and we have to save based on student name and age then how will you use to store in a hashmap(How you will implement hashcode method).
+3)what is Immutable how will you write your own Immutable classes and how can you prevent the immutable object from reflections.
+4)Write the code for reflection prevent for an Immutable object? (SecurityManager)
+5)SecurityManger is present in which package?
+ 
+Data Structure
+1) How can you find nth node from last in the linked list(Time complexity of O(n) with or without extra space)?
+2)How can you remove the given Node from Linked List?
+ 
+MultiThreading
+1) What is semaphore and how to implement it?
+2) Difference between semaphore and Monitor.
+3)How will you read the millions of records from the Array using complete Hardware resources(ThreadPool) write the code for it?
+4)Why you are using AtomicInteger and how it works?
+5)Volatile keyword how it works and the difference between volatile and AtomicInteger?
+6) CompareAndSwap what it is and how it works and where it is used?
+7) we have three variable a,b, and c.  c is volatile and I am changing the values of all values a=10,b=20=c=9 with thread1 and if thread2 will come and read the values of variable then what it will be(when c value assigned or not)?
+ 
+Spring
+1) Difference between Spring singleton and Java singleton.
+2) The scope of spring bean.
+3) If I have created two different beans for class and how many instances of the object will be created.
+4) Write your own custom annotation for logging on method details with class details
+ 
+Database
+1) You have two tables faculty(id,name,salary.dept_id) and department(dept-id,name) find out the total salary from each department.
+2)How will you write the indexes and on basis will you be creating the indexes.
+3) difference between cluster and non-cluster indexes
+4)you have given two tables employee and department how can you join the tables write down the queries for it.
+5)difference between joins?
+ 
+Other
+1)Do you know Unix commands?
+2)What critical problem did you face in your project?
+3) Project details and experience.
+ 
+ 
+Dear Candidate!
+
+Below is some reading material for your reference that will help you better before you go under any technical rounds. Please do refer to this and we hope this would be of some help.
+
+> http://javahungry.blogspot.com/2013/08/hashing-how-hash-map-works-in-java-or.html
+
+> http://javahungry.blogspot.com/2014/06/how-treemap-works-ten-treemap-java-interview-questions.html
+
+> http://javahungry.blogspot.com/2015/02/how-concurrenthashmap-works-in-java-internal-implementation.html
+
+> http://javahungry.blogspot.com/2015/10/how-treeset-works-internally-in-java-interview-questions.html
+
+> http://javahungry.blogspot.com/p/threads.html
+
+> http://javarevisited.blogspot.in/2011/04/synchronization-in-java-synchronized.html
+
+> http://javarevisited.blogspot.in/2011/06/volatile-keyword-java-example-tutorial.html
+
+> http://mrbool.com/working-with-java-executor-framework-in-multithreaded-application/27560
+
+> http://stackoverflow.com/questions/10828863/what-the-use-of-custom-class-loader
+
+> http://stackoverflow.com/questions/10901752/what-is-the-significance-of-load-factor-in-hashmap
+
+> http://stackoverflow.com/questions/11011291/treeset-internally-uses-treemap-so-is-it-required-to-implement-hashcode-method
+
+> http://stackoverflow.com/questions/137975/what-is-so-bad-about-singletons
+
+> http://stackoverflow.com/questions/13855013/understanding-java-memory-management
+
+> http://stackoverflow.com/questions/2087469/sort-a-file-with-huge-volume-of-data-given-memory-constraint
+
+> http://stackoverflow.com/questions/27325997/how-does-countdownlatch-works-in-java
+
+> http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
+
+> http://stackoverflow.com/questions/8161896/example-code-to-show-how-java-synchronized-block-works
+
+> http://tutorials.jenkov.com/java-concurrency/synchronized.html
+
+> http://tutorials.jenkov.com/java-util-concurrent/cyclicbarrier.html
+
+> http://www.dynatrace.com/en/javabook/how-garbage-collection-works.html
+
+> http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html
+
+> http://www.programcreek.com/2013/03/hashmap-vs-treemap-vs-hashtable-vs-linkedhashmap/
+
+> https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
+
+> https://en.m.wikipedia.org/wiki/Creational_pattern
+
+> https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+
+> https://lostechies.com/derickbailey/2009/02/11/solid-development-principles-in-motivational-pictures/
+
+> https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+

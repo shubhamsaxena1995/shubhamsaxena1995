@@ -1,0 +1,36 @@
+stream()
+filter()
+map()
+collect()
+count()
+sorted()
+sorted(Comparator c)
+min(Comparator c)
+max(Comparator c)
+forEach()
+toArray()
+https://javahungry.blogspot.com/2020/05/java-8-coding-and-programming-interview-questions.html
+
+
+HashSet/arrayList/Hashmap Internal working
+Hashset
+https://www.youtube.com/watch?v=MZL086hmGZ4
+
+
+SOLID PRINCIPLES
+https://www.youtube.com/watch?v=BM_lSZPMClo
+
+Collection Tricky interview questions
+https://www.youtube.com/watch?v=GO67C7V-IbQ&list=PLVz2XdJiJQxwS8FyWnWyKyfILxHPLsiro&index=8
+
+SQL vs NOSql when to use?
+https://www.youtube.com/watch?v=hainZwgvGYY&list=PLVz2XdJiJQxwS8FyWnWyKyfILxHPLsiro&index=2
+
+RestTemplate
+https://www.youtube.com/watch?v=DC8PExJAZa0
+
+
+LRU Cache 
+https://www.youtube.com/watch?v=akFRa58Svug
+LRU Cache Code
+https://www.youtube.com/watch?v=EmOIbVN0zBE

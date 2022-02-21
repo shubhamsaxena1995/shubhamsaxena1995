@@ -1,0 +1,69 @@
+1.How to create a thread pool-3
+2.volatile keyword and Atomic Integer, atomicity in multithreading --2
+3.Producer consumer problem
+4.Thread safe singleton class---3
+5.builder design pattern ---2
+6.solid principles --5
+7.wait vs sleep-2
+8.runnable vs callable-4
+9.idempotent operation in rest --2
+10.how arrayList works internally
+11.hashSet implementation---4
+12.transaction management/@transactional  ---3
+12.primary and secondary level caching in hibernate  ---5
+13.how to define primary key as composite key in hibernate---4
+14.serialization---3
+15.contract beteen equals and hashcode
+16.race condition ---2
+17.executer framework
+18.how to create immutable class and why string is immutable --- 8
+19.aggregation vs composition vs association ---5
+20.Load vs get in hibernate---2
+21.one to many/many to one hibernate annotations
+22.Rest api how to convert obj into json 
+23.what are the key factor to assign a class as a key or custom key of hashmap ---6
+24.class not found vs class def not found ---2
+transient??
+25.Rest Template-4
+26.
+27.What will happen when catch and finally block both return value, also when try and finally both return value in java?
+try{int i=10/0;}catch(ArithmeticException e){return "catch";}finally{return "finally";}       
+When try, catch and finally block returns value, method will ultimately return value returned by finally block irrespective of value returned by try/catch block.
+
+      
+SQL:
+1.Joins
+2.2nd Highest salary ---8
+SELECT name, MAX(salary) AS salary 
+FROM employee 
+WHERE salary < (SELECT MAX(salary) 
+FROM employee)
+3.student name which is not duplicate
+
+Top String interview programs 
+https://medium.com/javarevisited/top-21-string-programming-interview-questions-for-beginners-and-experienced-developers-56037048de45
+
+Top 50 hibernate interview questions
+https://www.edureka.co/blog/interview-questions/hibernate-interview-questions/
+
+Top 50 Spring interview questions
+https://www.edureka.co/blog/interview-questions/spring-interview-questions/#MVC
+
+Top 20 rest interview questions
+https://javarevisited.blogspot.com/2018/02/top-20-spring-rest-interview-questions-answers-java.html#axzz6q3swhLIA
+https://www.guru99.com/rest-api-interview-question-answers.html
+
+Top 20 spring boot inter questions
+https://www.baeldung.com/spring-boot-interview-questions
+
+
+1.synchronous and asynchronous 
+2.elastic search in db
+3.Transactional & propagation
+4.Exception handling in spring
+
+Hibernate interview question
+Collections in hibernate
+He we want to fetch only 10 records from table
+Criteria in hibernate
+If we want to send only few records in the response

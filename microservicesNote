@@ -1,0 +1,11 @@
+MicroServices
+Management:it is responsible for placeing services on nods
+ServiceDiscovery:manintains list of services and which nods they are located on and find the endpoints of services
+ApiGateWay:entry point for elient and it will forward the call to the appropriate service and to the backend and it might aggregate the result/response from the various services and send it to the clients
+Docker:images are used to create container on vm
+Asyncronus messaging pattern:Queue 
+Circuit Breaker pattern:
+Mesaging:apache kafka,Rabbit MQ
+publish/subscriber
+To scale the appl/for orchastration:kubernetes
+Microservice securties:Token,API GAteway
